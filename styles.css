@@ -307,3 +307,13 @@ h3 { font-size: 1.45rem; }
   .section { padding: 68px 20px; }
   .hero-note { display: none; }
 }
+
+/* Mobile fallback: remove background image on small screens for readability */
+@media (max-width: 600px) {
+  .highlight-card {
+    background-image: none;
+    background-color: var(--sage);
+    color: var(--white);
+    border-left: none;
+  }
+}
