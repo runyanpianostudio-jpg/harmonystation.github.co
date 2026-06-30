@@ -59,9 +59,7 @@ img { max-width: 100%; display: block; }
   width: 38px;
   height: 38px;
   border-radius: 999px;
-  background: 
-    rgba(255, 255, 255, 0.18),
-    url("assets/images/Harmony+Station+Logo.webp") center/cover;
+  background: rgba(255, 255, 255, 0.18);
   border: 1px solid rgba(255, 255, 255, 0.35);
 }
 
