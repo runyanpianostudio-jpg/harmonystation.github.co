@@ -1,13 +1,13 @@
 :root {
   --cream: #fbf6ec;
-  --warm: #f3e7d0;
-  --ink: #2d251f;
+  --warm: #f6ead8;
+  --ink: #2b2926;
   --muted: #6e6258;
-  --gold: #c08a2c;
-  --sage: #5f745f;
-  --sage-dark: #425442;
+  --gold: #f4c875;
+  --sage: #5f8b6a;
+  --sage-dark: #3f6b4b;
   --white: #ffffff;
-  --shadow: 0 24px 70px rgba(42, 31, 21, 0.16);
+  --shadow: 0 24px 70px rgba(42, 31, 21, 0.14);
 }
 
 * { box-sizing: border-box; }
@@ -50,6 +50,7 @@ img { max-width: 100%; display: block; }
   text-decoration: none;
   font-weight: 700;
   letter-spacing: 0.02em;
+  color: var(--white);
 }
 
 .brand-mark {
@@ -102,8 +103,8 @@ img { max-width: 100%; display: block; }
   max-width: 720px;
   padding: 44px;
   border-radius: 32px;
-  background: rgba(255, 255, 255, 0.13);
-  border: 1px solid rgba(255, 255, 255, 0.24);
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   backdrop-filter: blur(10px);
   box-shadow: var(--shadow);
 }
@@ -117,7 +118,7 @@ img { max-width: 100%; display: block; }
   font-weight: 800;
 }
 
-.hero .eyebrow { color: #f4c875; }
+.hero .eyebrow { color: var(--gold); }
 
 h1, h2, h3 {
   font-family: "Cormorant Garamond", Georgia, serif;
@@ -125,14 +126,14 @@ h1, h2, h3 {
   margin: 0 0 18px;
 }
 
-h1 { font-size: clamp(3rem, 7vw, 5.9rem); }
-h2 { font-size: clamp(2.2rem, 4vw, 3.8rem); }
-h3 { font-size: 1.65rem; }
+h1 { font-size: clamp(2.6rem, 6vw, 5.2rem); }
+h2 { font-size: clamp(2rem, 4vw, 3.6rem); }
+h3 { font-size: 1.45rem; }
 
 .hero-copy {
   max-width: 610px;
-  font-size: 1.18rem;
-  color: rgba(255,255,255,.9);
+  font-size: 1.05rem;
+  color: rgba(255,255,255,.95);
 }
 
 .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 28px; }
@@ -145,12 +146,12 @@ h3 { font-size: 1.65rem; }
   border-radius: 999px;
   text-decoration: none;
   font-weight: 800;
-  transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+  transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
 }
 .button:hover { transform: translateY(-2px); }
-.button.primary { background: var(--sage); color: white; box-shadow: 0 12px 24px rgba(66,84,66,.25); }
+.button.primary { background: var(--sage); color: white; box-shadow: 0 12px 24px rgba(63,107,75,.18); }
 .button.primary:hover { background: var(--sage-dark); }
-.button.secondary { background: rgba(255,255,255,.15); color: white; border: 1px solid rgba(255,255,255,.42); }
+.button.secondary { background: rgba(255,255,255,.14); color: white; border: 1px solid rgba(255,255,255,.32); }
 .button.full { width: 100%; margin-top: 18px; }
 
 .hero-note {
@@ -159,8 +160,8 @@ h3 { font-size: 1.65rem; }
   bottom: 14%;
   display: flex;
   gap: 18px;
-  font-size: 3.2rem;
-  opacity: .38;
+  font-size: 3rem;
+  opacity: .36;
   transform: rotate(-10deg);
 }
 
@@ -219,7 +220,7 @@ h3 { font-size: 1.65rem; }
   min-height: 360px;
   border-radius: 34px;
   background:
-    linear-gradient(135deg, rgba(0,0,0,.15), rgba(0,0,0,.35)),
+    linear-gradient(135deg, rgba(0,0,0,.12), rgba(0,0,0,.28)),
     url("assets/images/Lessons.png") center/cover;
   box-shadow: var(--shadow);
   position: relative;
@@ -264,10 +265,14 @@ h3 { font-size: 1.65rem; }
 .footer {
   text-align: center;
   padding: 32px 24px;
-  background: #2d251f;
-  color: rgba(255,255,255,.82);
+  background: var(--ink);
+  color: rgba(255,255,255,.92);
 }
 .footer p { margin: 4px 0; }
+
+@media (max-width: 1000px) {
+  .hero { padding-top: 52px; }
+}
 
 @media (max-width: 800px) {
   .nav { align-items: flex-start; }
