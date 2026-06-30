@@ -168,10 +168,10 @@ h3 { font-size: 1.45rem; }
 .section {
   max-width: 1180px;
   margin: 0 auto;
-  padding: 92px 24px;
+  padding: 24px 24px;
 }
 
-.section-heading { max-width: 760px; margin-bottom: 32px; }
+.section-heading { max-width: 760px; margin-bottom: 5px; }
 .section-heading.centered { text-align: center; margin: 0 auto 44px; }
 .section-heading.centered p:last-child { color: var(--muted); }
 
