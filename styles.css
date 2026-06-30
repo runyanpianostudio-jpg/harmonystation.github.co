@@ -225,7 +225,7 @@ h3 { font-size: 1.45rem; }
 }
 
 .piano-panel {
-  min-height: 1200px;
+  min-height: 1000px;
   border-radius: 34px;
   background:
     linear-gradient(135deg, rgba(0,0,0,.12), rgba(0,0,0,.28)),
