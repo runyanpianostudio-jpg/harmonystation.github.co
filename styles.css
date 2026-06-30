@@ -225,13 +225,13 @@ h3 { font-size: 1.45rem; }
 }
 
 .piano-panel {
-  min-height: 360px;
+  min-height: 1200px;
   border-radius: 34px;
   background:
     linear-gradient(135deg, rgba(0,0,0,.12), rgba(0,0,0,.28)),
     url("assets/images/Lessons.png") center/cover;
   box-shadow: var(--shadow);
-  position: relative;
+  position: top;
   overflow: hidden;
 }
 .keys {
