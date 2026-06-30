@@ -186,9 +186,9 @@ h3 { font-size: 1.45rem; }
 .contact-card,
 .lesson-card {
   background: var(--white);
-  border-radius: 28px;
+  /*border-radius: 28px;
   padding: 30px;
-  box-shadow: var(--shadow);
+  box-shadow: var(--shadow);*/
 }
 .highlight-card { border-left: 6px solid var(--gold); }
 
@@ -196,7 +196,7 @@ h3 { font-size: 1.45rem; }
 .highlight-card {
   background:
     linear-gradient(rgba(0,0,0,0.24), rgba(0,0,0,0.24)),
-    url("assets/images/Hi%2BI%E2%80%99m%2BAndrea.png") center/cover no-repeat;
+    url("assets/images/Headshot.webp") center/cover no-repeat;
   color: var(--white);
 }
 
