@@ -180,6 +180,14 @@ h3 { font-size: 1.45rem; }
   grid-template-columns: minmax(0, 1.35fr) minmax(280px, .75fr);
   gap: 36px;
 }
+
+.three-column {
+  display: grid;
+  /* Creates three equal columns */
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 36px;
+}
+
 .align-center { align-items: center; }
 
 .highlight-card,
