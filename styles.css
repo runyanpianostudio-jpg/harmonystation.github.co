@@ -57,8 +57,7 @@ img { max-width: 100%; display: block; }
   width: 48px;                /* size you want */
   height: 48px;
   display: inline-block;
-  background-image: url("assets/images/Harmony%20Station%20Logo.webp"),
-                    url("assets/images/Harmony%20Station%20Logo.png");
+  background-image: url("assets/images/Harmony+Station+Logo.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
