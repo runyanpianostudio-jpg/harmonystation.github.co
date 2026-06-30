@@ -192,6 +192,14 @@ h3 { font-size: 1.45rem; }
 }
 .highlight-card { border-left: 6px solid var(--gold); }
 
+/* Use the Hi I’m Andrea image as the highlight-card background */
+.highlight-card {
+  background:
+    linear-gradient(rgba(0,0,0,0.24), rgba(0,0,0,0.24)),
+    url("assets/images/Hi%2BI%E2%80%99m%2BAndrea.png") center/cover no-repeat;
+  color: var(--white);
+}
+
 .warm {
   max-width: none;
   background: var(--warm);
