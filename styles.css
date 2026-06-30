@@ -7,6 +7,7 @@
   --sage: #5f8b6a;
   --sage-dark: #3f6b4b;
   --white: #ffffff;
+  --header-bg: #539D91; /* new header color variable */
   --shadow: 0 24px 70px rgba(42, 31, 21, 0.14);
 }
 
@@ -23,11 +24,10 @@ body {
 a { color: inherit; }
 img { max-width: 100%; display: block; }
 
+/* Make header a solid color (remove hero image/gradient) */
 .site-header {
   min-height: 92vh;
-  background:
-    linear-gradient(120deg, rgba(45, 37, 31, 0.78), rgba(45, 37, 31, 0.34)),
-    url("assets/images/Hi%2BI%E2%80%99m%2BAndrea.png") center/cover;
+  background: var(--header-bg);
   color: var(--white);
   position: relative;
   overflow: hidden;
