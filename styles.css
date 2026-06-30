@@ -226,11 +226,11 @@ h3 { font-size: 1.45rem; }
 
 .piano-panel {
   min-height: 1000px;
-  border-radius: 34px;
+  /*border-radius: 34px;*/
   background:
     linear-gradient(135deg, rgba(0,0,0,.12), rgba(0,0,0,.28)),
-    url("assets/images/Lessons.png") center/cover;
-  box-shadow: var(--shadow);
+    url("assets/images/Lessons.webp") center/cover;
+  /*box-shadow: var(--shadow);*/
   position: top;
   overflow: hidden;
 }
