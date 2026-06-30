@@ -54,15 +54,15 @@ img { max-width: 100%; display: block; }
 }
 
 .brand-mark {
-  width: 48px;                /* size you want */
-  height: 48px;
+  width: 150px;                /* size you want */
+  height: 150px;
   display: inline-block;
   background-image: url("assets/images/Harmony+Station+Logo.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 999px;
-  border: 1px solid rgba(255,255,255,0.12);
+  /*border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.12);*/
   overflow: hidden;
   /* remove text fallback visibility */
   color: transparent;
